@@ -1,0 +1,36 @@
+# Maven
+target/
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+nbproject/
+nbbuild/
+nbactions.xml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs y secretos
+*.log
+.env
+.env.*
+*.pem
+*.key
+
+# Archivos temporales de Office
+~$*
+
+# Memoria editable (en el repo solo va docs/memoria.pdf)
+*.docx
+
+# Versión inicial del XML, sustituida por reservas.xml
+src/main/resources/reservas_original.xml
